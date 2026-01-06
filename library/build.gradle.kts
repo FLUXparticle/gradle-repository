@@ -1,10 +1,14 @@
 plugins {
-    id("java")
+    id("java-library")
     id("maven-publish")
 }
 
 group = "com.example"
 version = "1.0-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
 
 publishing {
     publications {
