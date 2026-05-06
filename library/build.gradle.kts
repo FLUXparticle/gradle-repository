@@ -24,3 +24,7 @@ publishing {
         }
     }
 }
+
+dependencies {
+    implementation(project(":tools"))
+}

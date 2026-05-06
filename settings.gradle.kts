@@ -1,3 +1,3 @@
 rootProject.name = "gradle-repository"
 
-include("library", "server", "project")
+include("library", "server", "project", "tools")
