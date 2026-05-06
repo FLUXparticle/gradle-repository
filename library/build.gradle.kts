@@ -26,5 +26,5 @@ publishing {
 }
 
 dependencies {
-    implementation(project(":tools"))
+    api(project(":tools"))
 }
